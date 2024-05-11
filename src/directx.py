@@ -80,7 +80,7 @@ def refresh_checkpoint():
     press_and_hold_key("f", 4)
 
     for _ in range(2):
-        press("esc")
+        press("m")
         time.sleep(0.5)
 
     run(10)
